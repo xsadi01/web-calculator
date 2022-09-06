@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">CalculatorX</label>
+      <ul>
+        <li><a href="http://localhost/calculator/Calculator/calculator.html">Calculator</a></li>
+        <li><a href="http://localhost/calculator/Calculator/age.html">Age Calculator</a></li>
+        <li><a href="http://localhost/calculator/Calculator/d2b.html">Decimal To Binary</a></li>
+        <li><a href="http://localhost/calculator/Calculator/contact.html">Contact</a></li>
+        <li><a href="http://localhost/calculator/Calculator/feedback.html">Feedback</a></li>
+      </ul>
+    </nav>
+    <!-- Feedback -->
+    <div class="Calculator Contact">
+      <div class="Contact">
+      <u>Feedback</u>
+      </div>
+      <div id="form">
+    <p id="feedback_button"></p>
+    
+	<form action="connect.php" method="post"></form>
+        <input type="text" placeholder="Enter your name" id="name" name="name" required>
+      <br>
+        <input type="text" placeholder="Enter your Email" id="fullname" name="fullname" required>
+      <br>
+      <textarea type="text" placeholder="Enter your Feedback" id="feedback" name="feedback" required></textarea>
+      <br>
+      <input type="submit" id="submit" values="submit">
+    </form>
+  </div>
+    </div>
+  </body>
+</html>
